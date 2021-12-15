@@ -1,4 +1,4 @@
-const fetchJoke = require("./fetchJoke.service");
-const getJoke = require("./getJoke.service");
+const { fetchJoke } = require("./fetchJoke.service");
+const { sendJoke } = require("./sendJoke.service");
 
-module.exports = { fetchJoke, getJoke };
+module.exports = { fetchJoke, sendJoke };
